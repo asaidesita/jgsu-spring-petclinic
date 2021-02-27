@@ -148,7 +148,7 @@ class ClinicServiceTests {
 		PetType petType1 = EntityUtils.getById(petTypes, PetType.class, 1);
 		assertThat(petType1.getName()).isEqualTo("cat");
 		PetType petType4 = EntityUtils.getById(petTypes, PetType.class, 4);
-		assertThat(petType4.getName()).isEqualTo("snake");
+		assertThat(petType4.getName()).isEqualTo("snake!!!!");
 	}
 
 	@Test
